@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"paths": {
+			// -- ROOT
+			"@/*": ["./src/*"],
+
+			//-- CORE
+			"@config/*": ["core/config/*"],
+			"@hooks/*": ["core/hooks/*"],
+			"@model/*": ["core/model/*"],
+			"@persist/*": ["core/persist/*"],
+			"@state/*": ["core/state/*"],
+			"@style/*": ["core/style/*"],
+			"@util/*": ["core/util/*"],
+
+			//-- INFRASTRUCTURE
+			"@api/*": ["infrastructure/api/*"],
+			"@widget/*": ["infrastructure/widget/*"],
+
+			//-- PRESENTATION
+			"@atom/*": ["presentation/component/atom/*"],
+			"@molecule/*": ["presentation/component/molecule/*"],
+			"@organism/*": ["presentation/component/organism/*"],
+			"@template/*": ["presentation/component/template/*"],
+			"@container/*": ["presentation/container/*"]
+		}
+	}
+}
